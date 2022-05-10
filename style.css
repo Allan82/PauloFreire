@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+.container-doenca{
+    z-index: 61;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 3vh 50vh 3vh;
+    grid-template-columns: 3fr 20fr 3fr;
+    grid-template-areas: "header header header"
+                         "margem section margem2"
+                         "footer footer footer"
+}
+.container-doenca button{
+    font-size: 50px;
+}
+header-doenca{
+    grid-area: header;
+    z-index: 60;
+}
+margem-doenca{
+    grid-area: margem;
+}
+section-doenca{
+    grid-area: section;
+    z-index: 60;
+}
+margem2-doenca{
+    grid-area: margem2;
+    z-index: 60;
+}
+footer-doenca{
+    grid-area: footer;
+    z-index: 60;
+}
+.container{
+    padding: 0%;
+    font-size: 50px;
+    display: grid;
+    grid-template-rows: 5vh 90vh 5vh; /*Altera o tamanho das linhas em ordem*/
+    grid-template-columns: 3fr 20fr 3fr; /*Altera o comprimento das colunas*/
+    grid-template-areas: "header header header"
+        "margem section margem2"
+        "footer footer footer";
+
+}
+.mask{
+    display: absolute;;
+    width: max-content;
+    height: max-content;
+}
+.container input{
+    font-size: large;
+    font-size: 50px;
+    border: none;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+header{
+    grid-area: header;
+    z-index: 10;
+}
+margem{
+    grid-area: margem;
+}
+section{
+    grid-area: section;
+    z-index: 10;
+    margin: 0;
+}
+section input{
+    max-height: 50px;
+
+}
+margem2{
+    grid-area: margem2;
+    z-index: 10;
+}
+footer{
+    grid-area: footer;
+    z-index: 10;
+}
+
+.Respiratorias{
+    display: none;
+    width: 75%;
+    height: 25%;
+    background: red;
+    position: absolute;
+    z-index: 100;
+}
+.Circulatorias{
+    display: none;
+    width: 75%;
+    height: 25%;
+    background: aquamarine;
+    position: fixed;
+    z-index: 100;
+}
+.Tumores{
+    display: none;
+    width: 75%;
+    height: 25%;
+    background: violet;
+    position: fixed;
+    z-index: 100;
+}
+.mask{
+    z-index: 110;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: none;
+}

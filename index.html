@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Doenças</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <margem>
+
+        </margem>
+        <section>
+            <input type="button" onclick="Modal(1)" value="Respiratorias">
+            <input type="button" onclick="Modal(2)" value="Circulatorias">
+            <input type="button" onclick="Modal(3)" value="Tumores">
+            <div class="mask" id="mask">
+                a
+            </div>
+
+            <div id="modal1" class="Respiratorias">
+                <div class="container-doenca">
+                    <header-doenca>
+
+                    </header-doenca>
+                    <margem-doenca>
+
+                    </margem-doenca>
+                    <section-doenca>
+
+                    </section-doenca>
+                    <margem2-doenca>
+
+                    </margem2-doenca>
+                    <footer-doenca>
+                        <button onClick="Sim('respiratorias')">Sim</button> <button onClick="Nao()">Não</button>
+                    </footer-doenca>
+                </div>
+            </div>
+
+            <div id="modal2" class="Circulatorias">
+                <div class="container-doenca">
+                    <header-doenca>
+
+                    </header-doenca>
+                    <margem-doenca>
+
+                    </margem-doenca>
+                    <section-doenca>
+
+                    </section-doenca>
+                    <margem2-doenca>
+
+                    </margem2-doenca>
+                    <footer-doenca>
+                        <button onClick="Sim('circulatorias')">Sim</button> <button onClick="Nao()">Não</button>
+                    </footer-doenca>
+                </div>
+            </div>
+
+            <div id="modal3" class="Tumores">
+                <div class="container-doenca">
+                    <header-doenca>
+
+                    </header-doenca>
+                    <margem-doenca>
+
+                    </margem-doenca>
+                    <section-doenca>
+
+                    </section-doenca>
+                    <margem2-doenca>
+
+                    </margem2-doenca>
+                    <footer-doenca>
+                        <button onClick="Sim('tumores')">Sim</button> <button onClick="Nao()">Não</button>
+                    </footer-doenca>
+                </div>
+            </div>
+
+        </section>
+        <margem2>
+
+        </margem2>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
