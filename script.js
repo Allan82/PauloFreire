@@ -14,7 +14,11 @@ function Modal(a) {
         $("#modal2").css("display", "none");
 
     };
+    abrirmask()
     $("#modal" + a).css("display", "flex");
+    $("#modal" + a).css("position", "absolute");
+    $("#mask").css("z-index", -1);
+
 };
 $("#mask").css("display", "flex");
 
@@ -35,4 +39,16 @@ function Nao(e) {
 
 function Home(e) {
     window.location.assign("index.html");
+}
+$(document).ready(function () {
+    console.log("Oi");
+});
+function abrirmask() {
+
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+
+    $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+    $("#mask").css("display", "flex");
+    $("#mask").css("position", "absolute");
 }

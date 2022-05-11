@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <header>
 
@@ -19,12 +20,10 @@
 
         </margem>
         <section>
-            <input type="button" onclick="Modal(1)" value="Respiratorias">
+            <p>Você sabe quais as doenças que mais matam em são paulo?</p>
+            <input type="button" onclick="Modal(1)" value="Respiratorias" style="z-index: -100">
             <input type="button" onclick="Modal(2)" value="Circulatorias">
             <input type="button" onclick="Modal(3)" value="Tumores">
-            <div class="mask" id="mask">
-                a
-            </div>
 
             <div id="modal1" class="Respiratorias">
                 <div class="container-doenca">
@@ -35,6 +34,7 @@
 
                     </margem-doenca>
                     <section-doenca>
+                        Asma porra
 
                     </section-doenca>
                     <margem2-doenca>
@@ -55,7 +55,7 @@
 
                     </margem-doenca>
                     <section-doenca>
-
+                        As circulações
                     </section-doenca>
                     <margem2-doenca>
 
@@ -75,7 +75,7 @@
 
                     </margem-doenca>
                     <section-doenca>
-
+                        Os tumores
                     </section-doenca>
                     <margem2-doenca>
 
@@ -93,6 +93,8 @@
         <footer>
 
         </footer>
+        <div class="mask" id="mask"></div>
+
     </div>
 </body>
 

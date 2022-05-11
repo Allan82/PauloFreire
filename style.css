@@ -87,13 +87,16 @@ margem2{
 footer{
     grid-area: footer;
     z-index: 10;
+    background: RGB(28, 28, 28);
 }
-
+section p{
+    font-size: 70px;
+    text-align: center;
+}
 .Respiratorias{
     display: none;
     width: 75%;
     height: 25%;
-    background: red;
     position: absolute;
     z-index: 100;
 }
@@ -101,7 +104,6 @@ footer{
     display: none;
     width: 75%;
     height: 25%;
-    background: aquamarine;
     position: fixed;
     z-index: 100;
 }
@@ -109,14 +111,12 @@ footer{
     display: none;
     width: 75%;
     height: 25%;
-    background: violet;
     position: fixed;
     z-index: 100;
 }
 .mask{
-    z-index: 110;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    opacity: 0.7;
+    z-index: 10;
+    background-color: gray;
     display: none;
 }
