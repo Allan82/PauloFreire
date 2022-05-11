@@ -35,6 +35,7 @@ function Nao(e) {
     $("#modal1").css("display", "none");
     $("#modal2").css("display", "none");
     $("#modal3").css("display", "none");
+    $("#mask").css("display", "none");
 }
 
 function Home(e) {

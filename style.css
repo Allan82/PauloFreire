@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 .container-doenca{
+    background-color: whitesmoke;
+    border: 50px;
+    border-color: black;
+    border-radius: 25px;
     z-index: 61;
     left: 0;
     text-align: center;
@@ -22,6 +26,7 @@ body{
 header-doenca{
     grid-area: header;
     z-index: 60;
+    background-color: initial;
 }
 margem-doenca{
     grid-area: margem;
@@ -94,23 +99,26 @@ section p{
     text-align: center;
 }
 .Respiratorias{
+    border: solid;
+    border-radius: 25px;
     display: none;
     width: 75%;
-    height: 25%;
     position: absolute;
     z-index: 100;
 }
 .Circulatorias{
+    border: solid;
+    border-radius: 25px;
     display: none;
     width: 75%;
-    height: 25%;
     position: fixed;
     z-index: 100;
 }
 .Tumores{
+    border: solid;
+    border-radius: 25px;
     display: none;
     width: 75%;
-    height: 25%;
     position: fixed;
     z-index: 100;
 }
@@ -119,4 +127,10 @@ section p{
     z-index: 10;
     background-color: gray;
     display: none;
+}
+.button-doenca{
+    border: none;
+}
+h2{
+    text-align: center;
 }
