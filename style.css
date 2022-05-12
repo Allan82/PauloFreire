@@ -131,6 +131,24 @@ section p{
 .button-doenca{
     border: none;
 }
-h2{
+section-doenca h1{
+    top: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 80px;
+}
+section-doenca h2{
+    font-size: 60px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text-circulatorias{
+    font-size: 50px;
+    text-align: left;
+    overflow-y: scroll;
+}
+.texto{
+    height: 75%;
+    overflow-y: scroll;
 }
