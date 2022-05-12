@@ -21,9 +21,9 @@
         </margem>
         <section>
             <p>Você sabe quais as doenças que mais matam em são paulo?</p>
-            <input type="button" onclick="Modal(1)" value="Respiratorias">
+            <div class="bt"> <input type="button" onclick="Modal(1)" value="Respiratorias">
             <input type="button" onclick="Modal(2)" value="Circulatorias">
-            <input type="button" onclick="Modal(3)" value="Tumores">
+            <input type="button" onclick="Modal(3)" value="Tumores"></div>
 
             <div id="modal1" class="Respiratorias">
                 <div class="container-doenca">
@@ -53,8 +53,8 @@
 
                     </margem2-doenca>
                     <footer-doenca>
-                        <button class="button-doenca" onClick="Sim('respiratorias')">Sim</button> <button
-                            class="button-doenca" onClick="Nao()">Não</button>
+                        <div class="bt">  <button class="button-doenca" onClick="Sim('respiratorias')">Sim</button> <button
+                            class="button-doenca" onClick="Nao()">Não</button></div>
                     </footer-doenca>
                 </div>
             </div>
@@ -87,8 +87,8 @@
 
                     </margem2-doenca>
                     <footer-doenca>
-                        <button class="button-doenca" onClick="Sim('circulatorias')">Sim</button> <button
-                            class="button-doenca" onClick="Nao()">Não</button>
+                        <div class="bt"> <button class="button-doenca" onClick="Sim('circulatorias')">Sim</button> <button
+                            class="button-doenca" onClick="Nao()">Não</button></div>
                     </footer-doenca>
                 </div>
             </div>
@@ -102,16 +102,17 @@
 
                     </margem-doenca>
                     <section-doenca>
-                        Câncer é um termo que abrange mais de 100 diferentes tipos de doenças malignas que têm em comum
-                        o crescimento desordenado de células, que podem invadir tecidos adjacentes ou órgãos a
-                        distância.
+                        <h1>Doenças Tumorais</h1>
+                        <h2>O que são?</h2>
+                        A palavra tumor corresponde ao aumento de volume observado numa parte qualquer do corpo. ele pode ser benigna ou maligna. 
+                        quando é maligno é demoninado de câncer.
                     </section-doenca>
                     <margem2-doenca>
 
                     </margem2-doenca>
                     <footer-doenca>
-                        <button class="button-doenca" onClick="Sim('tumores')">Sim</button> <button
-                            class="button-doenca" onClick="Nao()">Não</button>
+                        <div class="bt"> <button class="button-doenca" onClick="Sim('tumores')">Sim</button> <button
+                            class="button-doenca" onClick="Nao()">Não</button></div>
                     </footer-doenca>
                 </div>
             </div>
@@ -121,7 +122,7 @@
 
         </margem2>
         <footer>
-
+            <div class="creditos">desenvolvido por <img src="insta.png" width="25" height="25"> <a href="https://www.instagram.com/devsystemds/" target="_blank">@devsystemds </a></div>
         </footer>
         <div class="mask" id="mask"></div>
 

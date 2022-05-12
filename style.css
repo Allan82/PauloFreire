@@ -26,7 +26,7 @@ body{
 header-doenca{
     grid-area: header;
     z-index: 60;
-    background-color: initial;
+    background-color: 326570;
 }
 margem-doenca{
     grid-area: margem;
@@ -42,6 +42,7 @@ margem2-doenca{
 footer-doenca{
     grid-area: footer;
     z-index: 60;
+    
 }
 .container{
     padding: 0%;
@@ -61,8 +62,8 @@ footer-doenca{
 }
 .container input{
     font-size: large;
-    font-size: 50px;
-    border: none;
+    font-size: 40px;
+    border: 4px;
     width: 50%;
     height: 50%;
     text-align: center;
@@ -91,8 +92,10 @@ margem2{
     z-index: 10;
 }
 footer{
+    text-align: center;
+    align-items: center;
     grid-area: footer;
-    z-index: 10;
+    z-index: 0;
     background: RGB(28, 28, 28);
 }
 section p{
@@ -130,7 +133,8 @@ section p{
     display: none;
 }
 .button-doenca{
-    border: none;
+        border: 0;
+
 }
 section-doenca h1{
     top: 0;
@@ -138,24 +142,54 @@ section-doenca h1{
     margin-bottom: 5px;
     font-size: 80px;
 }
+p{
+    text-align: justify;
+}
+
+
+.bt {
+    font-size: 30px;
+    text-align: center;
+  }
+
+li{
+    text-align: justify;
+    font-size: 40px;
+}
+
 h1{
+    font-size: 60px;
     text-align: center;
 }
 h2{
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
 }
 .text-circulatorias{
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+    text-align: justify;
 }
 .texto{
     height: 75%;
     overflow-y: scroll;
 }
+.creditos{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0);
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0);
+}
+footer a:hover{
+    color: rgb(71, 7, 90);
+}
 .texto li{
-    text-align: center;
+    text-align: justify;
     list-style: none;
 }
