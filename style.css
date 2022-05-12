@@ -70,6 +70,7 @@ footer-doenca{
     align-content: center;
 }
 header{
+    background-image: repeating-linear-gradient(175deg, rgb(87, 230, 210), red, rgb(63, 23, 243));
     grid-area: header;
     z-index: 10;
 }
@@ -137,7 +138,10 @@ section-doenca h1{
     margin-bottom: 5px;
     font-size: 80px;
 }
-section-doenca h2{
+h1{
+    text-align: center;
+}
+h2{
     font-size: 60px;
     text-align: center;
     margin-top: 0;
@@ -145,10 +149,13 @@ section-doenca h2{
 }
 .text-circulatorias{
     font-size: 50px;
-    text-align: left;
-    overflow-y: scroll;
+    text-align: center;
 }
 .texto{
     height: 75%;
     overflow-y: scroll;
+}
+.texto li{
+    text-align: center;
+    list-style: none;
 }
